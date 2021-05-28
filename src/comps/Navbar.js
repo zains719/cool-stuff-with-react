@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import HamburgerMenu from 'react-hamburger-menu';
 import { Link } from 'react-scroll';
 
 class Navbar extends Component {
