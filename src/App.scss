@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.app {
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+.particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+
+nav {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+  padding: 1.5rem;
+  z-index: 10000;
+}
+.navHeaderWrapper{
+  float: left;
+}
+.navLinks {
+  float: right;
+}
+.navLink {
+  margin-left: 15px;
+}
+.navLink:hover {
+  border-bottom: 3px solid #FF522C;
+  cursor: pointer;
+}
+.navTop {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+}
+.navBottom {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+}
+
+
+.header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.vericalChanging {
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 1010px;
+  background-color: #FF522C;
+}
+
+.animationPage {
+  margin-top: -25px;
+  margin-bottom: -25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.text {
+  color: white;
+  font-size: 2.5rem;
+}
+button {
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+}
