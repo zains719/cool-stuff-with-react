@@ -9,7 +9,6 @@ class Navbar extends Component {
             top: true,
             hamburger: false
         };
-        // this.onHamburgerClicked = this.onHamburgerClicked.bind(this);
     }
 
     componentDidMount() {
@@ -21,11 +20,6 @@ class Navbar extends Component {
         });
     }
 
-    // onHamburgerClicked() {
-    //     this.setState((prevState) => (
-    //       { hamburgerOpen: !prevState.hamburgerOpen }));
-    //   }
-
     render() {
         return (
             <nav className={this.state.top ? 'navTop' : 'navBottom'}>
@@ -33,7 +27,6 @@ class Navbar extends Component {
                     <span className={this.state.top ? 'navHeaderTop' : 'navHeaderBottom'}>
                         Cool Stuff
                     </span>
-                    {/* <HamburgerMenu className="hamburger" isOpen={this.state.hamburgerOpen} menuClicked={this.onHamburgerClicked} /> */}
                 </div>
                 <div className="navLinks">
                     <Link to='particles' smooth offset={-1000}>
